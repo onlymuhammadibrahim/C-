@@ -11,14 +11,10 @@ namespace C_
     {
         static void Main(string[] args)
         {
-            Book book1 = new Book("Harry Potter", "jk rol", 401);
-            Book book2 = new Book("Sindbad", "IBM", 150);
 
-            
+            LahoriChef chef1 = new LahoriChef();
 
-            Console.WriteLine(book1.Pages);
-
-            usefulTools.sayHi("IBM");
+            chef1.makeSpecialDish();
             
             Console.ReadLine();
         }
