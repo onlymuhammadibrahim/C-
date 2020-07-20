@@ -48,6 +48,8 @@
     <Compile Include="LahoriChef.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Square.cs" />
+    <Compile Include="TaxPayer.cs" />
     <Compile Include="usefulTools.cs" />
   </ItemGroup>
   <ItemGroup>

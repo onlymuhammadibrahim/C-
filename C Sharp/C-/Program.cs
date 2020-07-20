@@ -11,10 +11,19 @@ namespace C_
     {
         static void Main(string[] args)
         {
-
-            LahoriChef chef1 = new LahoriChef();
-
-            chef1.makeSpecialDish();
+            
+            
+            TaxPayer[] list = new TaxPayer[10];
+            for (int i = 0; i < 10; i++)
+            {
+                TaxPayer s1 = new TaxPayer(i);
+                list[i] = s1;
+            }        
+            
+            for (int j = 0; j < 10; j++)
+            {
+                Console.WriteLine("Tax Payer # " + list[j].SSN + " having income of " + list[j].Income + " has tax of " + list[j].TaxOwed);
+            }
             
             Console.ReadLine();
         }
